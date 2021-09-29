@@ -1,12 +1,12 @@
 
-import User from './component/User'
+import Todos from './component/Todos'
 import Navbar from './containers/Navbar';
 
 function App() {
   return (
     <div className="">
       <Navbar/>
-        <User />
+        <Todos />
     </div>
   );
 }
